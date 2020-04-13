@@ -1,0 +1,392 @@
+.menutop{
+	height:110px;
+}
+.fixNav{
+  width: 100%;
+  height: 35px;
+  background-color: #0082bb;
+  display: block;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+}
+.menutop-1{
+	height:40px;
+    line-height: 40px;
+	
+}
+.container{
+	padding:0px;
+}
+a.nav-link{
+	font-size:12px;
+	color: #504545!important;
+	margin-right:23px;
+	height:40px;
+	font-weight: 700;
+	padding:0px!important;
+}
+a.nav-link-phai{
+	color: #fff;
+    font-size: 11px;
+    height:40px;
+}
+.search-box{
+	margin-left: 70px;
+	margin-right:65px;
+}
+ul {
+list-style: none;
+}
+li.nav-item{
+	height:40px;
+	list-style: none;
+}
+nav.navbar.navbar-expand {
+    padding: 0px;
+}
+i.fa.fa-search{
+  position: absolute;
+  position:relative;
+  top: 50%;
+  margin-left: -29px;
+  z-index: 190;
+  color: #4f5b66;
+}
+input.form-control.mr-sm-2 {
+    border-radius: 3.5rem 3.5rem;
+    height: 25px!important;
+
+}
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    padding-top: 20px;
+}
+.menutop-2{
+	height:70px;
+background-color:#fff!important;
+    border-bottom: 1px solid #C8C5C3;
+    box-shadow: 1px 1px 1px #80808040;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0px;
+    height: 70px;
+}
+nav.navbar.navbar-expand-lg {
+    padding: 0px!important;
+}
+nav.navbar-expand-lg li{
+  display: none;
+}
+.logo{
+	width: 175px;
+     margin-right: 130px;
+}
+.trangtru {
+    font-size: 16px!important;
+    line-height: 35px;
+    margin-right:28px!important;
+    color:#ED2931;
+}
+.ngoaicung{
+margin-right:0px!important;
+}
+.tinphu{
+	float:left;
+	margin-left: 57px;
+}
+
+span.timhieu{
+	color:#FD6436;
+	font-size:14px;
+	padding-left:68px;
+}
+span.timhieu:hover{
+	text-decoration: underline;
+}
+.tinphu a p{
+	color:#5F5F5F;
+	font-weight: bold;
+	font-size:16px;
+}
+b.spdichvu{
+	font-size:24px;
+	padding-bottom: 10px;
+}
+.box{
+display:block;
+max-width:800px;
+margin-right:auto;
+margin-left:auto;
+padding-top:32px;
+padding-bottom:0px;
+height:202px;
+}
+.trungtam a img{
+	height:105px;
+	width: 156px;
+}.trungtam a:hover{
+
+	text-decoration:none;
+
+}
+.trungtam a:hover img{
+ transform: scale(1.1);
+}
+.col-xs-12.col-sm-4.text-center.trungtam {
+    height: 165px;
+    float: left;
+}
+.trungtam p {
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.botron{
+	border: 1px solid black;
+    border-radius: 50%;
+    margin:auto;
+}
+.row-gray {
+    background: #f2f2f2;
+    line-height: 26px;
+    margin-bottom: 20px;
+ }
+a.dichvuonline{
+	color:#FD6436;
+}
+.xemthem{
+	color:#f37021!important;
+	margin-bottom:25px;
+}
+.xemthem:hover{
+	text-decoration: underline;
+}
+a.xt {
+    padding-top: 75px!important;
+    display: block;
+    color: #F37028;
+}
+.haha{
+    margin-bottom: 30px;
+	    margin-top: 23px;
+}
+._3tinkm{
+	padding-left:16px!important;
+}
+.row-gray h3{
+	font-size:22px;
+    margin-bottom: 10px;
+    padding-top:20px;
+    font-weight:600;
+}
+h3.chude{
+	margin-bottom:15px;
+	    font-size: 23px;
+    font-weight: 650;
+    color: #615858;
+    padding-right: 573px!important;
+}
+.tintuctt{
+	width: 530px;
+	float:left;
+	margin-right:40px;
+	z-index:200;
+	display:inline-block;
+}
+.newtrai{
+	float:left;
+}
+.newphai{
+	float:right;
+	width: 418px;
+}
+.tinnho li a{
+	color: #737171;
+    font-weight: 500;
+	line-height: 22px!important;
+    display: block;
+}
+.tinnho li a:hover{
+	color :#FF9F38;
+	text-decoration: none;
+}
+.thoigian-news{
+	font-size: 14px;
+    color: #7c7c7c;
+        padding-bottom: 10px!important;
+    display: block;
+}
+.ttlienlac{
+	width: 100%;
+ z-index: 500;
+ display: inline-block;
+ background-color: #2B2B2B;
+     margin-top: 16px;
+     padding-bottom: 34px;
+}
+.gtchung{
+	width: 150px;
+	margin:15px;
+	float:left;
+}
+.gtchung p {
+	color: #df6f21;
+	font-size:17px;
+}
+.gtchung ul li a{
+	color:#FFFFFF;
+	line-height: 33px;
+}
+.cskh{
+	width: 200px;
+}
+.dangkithanhvien{
+	width: 288px;
+}
+.qc{
+	width: 370px;
+}
+.owl-carousel .owl-item .botron {
+    display: block;
+    width:51%!important;
+}
+.thuonghieu{
+	width: 103px!important;
+	margin:auto;
+}
+h6{
+	font-size:17px!important;
+	padding:2px;
+	padding-bottom: 12px!important;
+	color:black;
+}
+h6.cangiua{
+	text-align:center;
+}
+h6:hover{
+	text-decoration:none;
+	color:#FF6400;
+	display:inline-block;
+}
+.owl-nav button.owl-prev {
+    font-size: 69px!important;
+    color: #FDFDFD!important;
+    position: absolute;
+    top:-12px;
+    left:0px;
+
+}
+button.owl-next {
+	font-size: 69px!important;
+    color: #FDFDFD!important;
+position: absolute;
+    top: -10px;
+    left: 580px;
+}
+.footer-menu{
+	background-color:#232323;
+}
+a.menu-cuoitrang{
+	padding-right: 26px;
+    padding-left: 26px;
+	color:white;
+}
+a.menu-cuoitrang:hover{
+	color:white;
+	text-decoration:none;
+}
+.menuan {
+    margin-top: 12px!important;
+    display: inline-block;
+    color:black;
+}
+.text-name{
+	color:#FF6634;
+	font-size:20px;
+	font-weight:600;
+}
+img.d-block {
+    transform: scale(1.1,1.1);
+    overflow: hidden;
+    height: 560px;
+}
+a p:hover{
+ text-decoration: none;
+}
+.carousel-1 span {
+    color:#F37021;
+}
+.carousel-1 button.owl-next {
+    position: absolute;
+    top: 24px;
+    left: 1116px;
+}
+.carousel-1 button.owl-prev {
+    position: absolute;
+    top: 24px!important;
+    left: 39px!important;
+}
+.carousel-2 button.owl-prev{
+position: absolute;
+    top: -10px!important;
+    left: 0px!important;
+}
+.carousel-2 button.owl-next{
+position: absolute;
+    top: -10px!important;
+    left: 580px!important;
+}
+.carousel-2 button span{
+	color:white!important;
+}
+.carousel-1 .owl-dots{
+  display :none;
+}
+.carousel-2 .owl-dots{
+  display :none;
+}
+i.fa.fa-chevron-right {
+    padding-right: 6px;
+}
+span.thoigian-news {
+    padding-left: 20px;
+}
+.nutlentren img{
+  position: fixed;
+  bottom: 50px;
+  border-radius: 50%;
+  right: 30px;
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) XS,SM */
+@media (min-width: 576px) {  
+
+
+}
+ 
+/* Medium devices (tablets, 768px and up) MD The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+nav.navbar-expand-lg li{
+  display: block;
+ }
+
+}
+ 
+/* Large devices (desktops, 992px and up) LG */
+@media (min-width: 992px) { 
+
+  
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) XL */
+@media (min-width: 1200px) {  
+    
+}
